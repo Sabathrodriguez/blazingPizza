@@ -12,6 +12,16 @@ namespace BlazingPizza
         public const int MinimumSize = 9;
         public const int MaximumSize = 17;
 
+        public string? Name {get;set;}
+
+        public string? Description {get;set;}
+
+        public string? Vegetarian {get;set;}
+
+        public string? Vegan {get;set;}
+
+        public string? Price {get; set;}
+
         public int Id { get; set; }
 
         public int OrderId { get; set; }
